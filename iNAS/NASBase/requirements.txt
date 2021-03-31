@@ -1,0 +1,5 @@
+tensorflow-gpu==1.15
+keras==2.2.4
+networkx==2.5
+h5py==2.10.0
+numpy

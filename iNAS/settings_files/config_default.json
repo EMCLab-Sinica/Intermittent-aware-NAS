@@ -1,0 +1,49 @@
+    
+{
+    "CUDA_SETTINGS" : {
+        "GPUID" : "0"
+    }, 
+    "PLATFORM_SETTINGS" : {
+        "MCU_TYPE" : "MSP430",  
+        "CCAP" : 0.005, 
+        "REHM" : 1000.0, 
+        "VON" : 2.99,
+        "VOFF" : 2.8, 
+        "VSUP" : 3.0, 
+        "EAV_SAFE_MARGIN" : 1.0,
+        "VM_CAPACITY" : 3696, 
+        "NVM_CAPACITY" : 1000000,
+        "DATA_SZ" : 2, 
+        "CPU_CLOCK": 16000000, 
+        "LAT_E2E_REQ" : 10000,
+        "POW_TYPE" : "INT" 
+    },
+    "NAS_SETTINGS" : {        
+        "CONV_NUM_FILTERS" : [4, 8, 16, 24],    
+        "CONV_KERNEL_SIZES" : [3, 5, 7, 11],
+        "NUM_LAYERS": 5,        
+        "NUM_CLASS" : 10,
+        "EPOCH": 30,
+        "TRIALS": 250,
+        "CHILD_BATCHSIZE" : 256,
+        "EXPLORATION" : 0.1, 
+        "REGULARIZATION" : 1e-3,  
+        "CONTROLLER_CELLS" : 32, 
+        "EMBEDDING_DIM" : 20, 
+        "ACCURACY_BETA" : 0.8, 
+        "CLIP_REWARDS" : 0.0,  
+        "RESTORE_CONTROLLER" : false, 
+        "DATASET" : "CIFAR10",
+        "IMG_CHANNEL" : 3, 
+        "IMG_SIZE" : 32,
+        "MODEL_FN_TYPE" : "MODEL_FN_CONV2D"
+    },
+    "DUMPER_SETTINGS" : {
+        "DUMP_DIR" : ""
+    },
+    "LOG_SETTINGS" : {
+        "TRIAL_LOG_DIR" : "trial_log/",
+        "TRIAL_LOG_FNAME" : "default_trial_info.csv", 
+        "LOG_LEVEL" : 1
+    }
+}

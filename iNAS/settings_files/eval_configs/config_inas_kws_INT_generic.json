@@ -1,0 +1,23 @@
+{    
+    "PLATFORM_SETTINGS" : {                    
+        "POW_TYPE" : "INT",        
+        "EAV_SAFE_MARGIN" : 0.55
+    },
+    "NAS_SETTINGS" : {        
+        "CONV_NUM_FILTERS" : [48, 64, 96, 128],
+        "CONV_KERNEL_SIZES" : [],
+        "NUM_LAYERS": 4,
+        "NUM_CLASS" : 12,
+        "EPOCH": 25,
+        "TRIALS": 100,
+        "CHILD_BATCHSIZE" : 100,
+        "DATASET" : "KWS",
+        "IMG_CHANNEL" : 1, 
+        "IMG_SIZE" : 250,
+        "MODEL_FN_TYPE" : "MODEL_FN_FC"
+    },    
+    "LOG_SETTINGS" : {
+        "TRIAL_LOG_DIR" : "trial_log/kws/"
+        
+    }
+}
