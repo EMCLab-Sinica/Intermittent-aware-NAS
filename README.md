@@ -31,11 +31,11 @@ The derived iNAS solutions (i.e., network models with associated intermittent ex
 Below is an explanation of the directories/files found in this repository. 
 
 
-`iNAS/NASBase` contains the implementation for the NAS Controller and DNN Trainer, adapted from the [hardware-aware NAS engine](https://github.com/PITT-JZ-COOP/FPGA-implementation-Aware-Neural-Architecture-Search).
-`iNAS/IEExplorer` contains the implementation for the iNAS-Exp
-`iNAS/CostModel` contains the implementation for the iNAS-PMod
-`iNAS/DNNDumper` is a helper module used to convert the derived solutions into a custom C data structure recognizable by the intermittent inference runtime library
-`iNAS/misc_scripts` contains miscellaneous helper scripts
+`iNAS/NASBase` contains the implementation for the NAS Controller and DNN Trainer, adapted from the [hardware-aware NAS engine](https://github.com/PITT-JZ-COOP/FPGA-implementation-Aware-Neural-Architecture-Search).<br/>
+`iNAS/IEExplorer` contains the implementation for the iNAS-Exp<br/>
+`iNAS/CostModel` contains the implementation for the iNAS-PMod<br/>
+`iNAS/DNNDumper` is a helper module used to convert the derived solutions into a custom C data structure recognizable by the intermittent inference runtime library<br/>
+`iNAS/misc_scripts` contains miscellaneous helper scripts<br/>
 `iNAS/run_scripts` contains scripts to help deploy and execute iNAS and related experiments on a GPU server
 `iNAS/settings_files` contains the settings used for evaluation (on 3 datasets)
 `iNAS/solution_dump` is the solution output directory
