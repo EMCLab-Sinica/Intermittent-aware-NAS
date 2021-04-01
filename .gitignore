@@ -9,7 +9,6 @@ Release/
 /BuildOutputs/
 /.metadata/
 /Measurements/
-/data/
 /.energytrace/
 /.jxbrowser-data/
 /dvt/
@@ -18,3 +17,4 @@ Release/
 /.cproject
 /.ccsproject
 /.project
+__pycache__/
