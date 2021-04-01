@@ -54,7 +54,7 @@ Below is an explanation of the directories/files found in this repository.
 ### Prerequisites
 
 ###### iNAS
-iNAS is implemented using Python 3.7 and so we recommend installing the [Anaconda](https://docs.anaconda.com/anaconda/install/) distribution of Python and related packages. The required dependencies to run iNAS can be found in the included `iNAS/requirements_pip.txt` file. 
+iNAS is implemented using Python 3.7, so we recommend installing the [Anaconda](https://docs.anaconda.com/anaconda/install/) distribution of Python and related packages. The required dependencies to run iNAS can be found in the included `iNAS/requirements_pip.txt` file. 
 
 ###### Intermittent Inference Library
 Here is the basic software and hardware needed to build/run the intermittent inference runtime library. 
