@@ -6,7 +6,7 @@
 This repository contains iNAS, a neural architecture search (NAS) framework which finds deep neural networks (DNNs) that can be feasibly deployed and executed on *intermittently-powered* systems. iNAS co-explores the neural architecture, execution design and preservation design spaces to find highly accurate DNNs that can *safely* and *efficiently* execute under intermittent power.
 
 
-We develop iNAS on top of an existing [hardware-aware NAS](https://github.com/PITT-JZ-COOP/FPGA-implementation-Aware-Neural-Architecture-Search)(DAC 2019), where we adapt the NAS controller and DNN Trainer, as well as introduce the following two key components to introduce *intermittent execution behavior* into NAS: 
+We develop iNAS on top of an existing [hardware-aware NAS](https://github.com/PITT-JZ-COOP/FPGA-implementation-Aware-Neural-Architecture-Search) (DAC 2019), where we adapt the NAS controller and DNN Trainer, as well as introduce the following two key components to introduce *intermittent execution behavior* into NAS: 
 
 * Intermittent-aware Execution Design Explorer (iNAS-Exp)
 * Intermittent-aware Abstract Performance Model (iNAS-PMod)
