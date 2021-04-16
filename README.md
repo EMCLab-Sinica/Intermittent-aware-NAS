@@ -16,6 +16,8 @@ NAS iteratively generates child networks. For each child network, iNAS-Exp explo
 
 The derived iNAS solutions (i.e., network models with associated intermittent execution designs) are deployed on the Texas Instruments MSP430FR5994 LaunchPad and executed using an intermittent inference library that is also included in this repository. 
 
+A demo video comparing solutions found by iNAS and a hardware-aware NAS can be found [here] (www.youtube.com)
+
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
