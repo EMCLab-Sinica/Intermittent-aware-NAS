@@ -1,4 +1,4 @@
-# iNAS : Intermittent-Aware Neural Architecture Search
+# iNAS : Intermittent-aware Neural Architecture Search
 
 <!-- ABOUT THE PROJECT -->
 ## Overview
