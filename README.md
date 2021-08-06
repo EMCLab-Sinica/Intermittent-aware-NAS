@@ -18,7 +18,9 @@ The derived iNAS solutions (i.e., network models with associated intermittent ex
 
 A demo video comparing solutions found by iNAS and a hardware-aware NAS can be found [here](https://youtu.be/D1D9nk67QTI)
 
-Please cite/refer to this [paper](https://www.citi.sinica.edu.tw/papers/pchsiu/8050-F.pdf) for more information.
+Please cite/refer to this [paper](https://www.citi.sinica.edu.tw/papers/pchsiu/8050-F.pdf) for more information:<br/>
+Hashan Roshantha Mendis, Chih-Kai Kang, and Pi-Cheng Hsiu, "Intermittent-Aware Neural Architecture Search," to appear in _ACM Transactions on Embedded Computing Systems_, (Integrated with IEEE/ACM CODES+ISSS 2021)
+
 
 
 <!-- TABLE OF CONTENTS -->
