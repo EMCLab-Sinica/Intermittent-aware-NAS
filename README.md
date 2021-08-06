@@ -18,6 +18,8 @@ The derived iNAS solutions (i.e., network models with associated intermittent ex
 
 A demo video comparing solutions found by iNAS and a hardware-aware NAS can be found [here](https://youtu.be/D1D9nk67QTI)
 
+Please cite/refer to this [paper](https://www.citi.sinica.edu.tw/papers/pchsiu/8050-F.pdf) for more information.
+
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -80,4 +82,17 @@ Here is the basic software and hardware needed to build/run the intermittent inf
 3. Import this project to your workspace of code composer studio (CCS). 
 4. Add `PATH_TO_DSPLIB` & `PATH_TO_DIRVERLIB` to library search path
 
+
+## Contributors
+
+This project is led by Dr. Pi-Cheng Hsiu (Academia Sinica). Listed below are the contributors.
+
+Hashan Roshantha Mendis (Academia Sinica, Taiwan)<br/>
+Chih-Kai Kang (Academia Sinica and National Taiwan University, Taiwan)<br/>
+Pi-Cheng Hsiu (Academia Sinica, National Taiwan University and National Chi Nan University, Taiwan)<br/>
+
+
+## Contact
+
+If you have any questions or comments, please contact Hashan Roshantha Mendis at rosh.mendis@citi.sinica.edu.tw
 
